@@ -1,7 +1,5 @@
 button{
-border-radius:20px; 
-background: #5a90e8;
- color: white;
+
 height: 50px;
 padding-left: 40px;
 padding-top:5px;
@@ -15,17 +13,6 @@ font-weight: bold
   border: 1px solid white;
 }
 
-.Alex{
-padding-left: 200px;
-}
-
-.phrase{
-opacity: 0.5 ;
-}
-.phrase2{
-opacity: 0.5 ;
-}
-
 body{
 font-family: Varela Round;
 }
@@ -35,17 +22,61 @@ padding-top: 250px;
 padding-left: 400px;
 }
 
-.menu{
-text-align: right;
-padding-right: 400px;
-padding-top: 20px;
-word-spacing: 25px;
-opacity: 0.5;
+
+
+.image-background {
+	background:url("https://images.unsplash.com/photo-1516914589923-f105f1535f88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f412a6ee4af609b0e3f4f85248f2879f&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.3);
+	padding: 0 10%;
+}  
+
+.page-title {
+ 	margin-top: 10px;
+	display: inline-block;
+
+}
+.navigation {
+   	color: white;
+}
+.menu {
+	float: right;
+	padding-top: 15px;
+
 }
 
-a{
-color:#ced7e5 ;
+.menu a {
+	color: white;
+	text-decoration: none;
+	padding-left: 13px;
 }
 
+.hero {
+	color: white;
+	padding: 10% 0;
+}
 
+.button-primary {
+	border-radius:20px; 
+	background: #425cbb;
+ 	color: white;
+ 	border: 2px solid #425cbb; 
+ 	font-weight: bold;
+ 	font-size: 11px;
+ 	display: inline-block;
+ 	padding: 12px 35px;
+ 	transition:all 0.3s ease-in;
+}
+
+.button-primary:hover  {
+	background: transparent;
+	border-color: white;
+
+	
+}
+
+.space-bottom {
+	margin-bottom: 30px;
+}
 
