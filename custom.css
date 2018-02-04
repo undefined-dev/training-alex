@@ -1,0 +1,51 @@
+button{
+border-radius:20px; 
+background: #5a90e8;
+ color: white;
+height: 50px;
+padding-left: 40px;
+padding-top:5px;
+padding-right:40px;
+font-weight: bold
+;
+}
+
+.butonas:hover {
+  background: black;
+  border: 1px solid white;
+}
+
+.Alex{
+padding-left: 200px;
+}
+
+.phrase{
+opacity: 0.5 ;
+}
+.phrase2{
+opacity: 0.5 ;
+}
+
+body{
+font-family: Varela Round;
+}
+
+.container{
+padding-top: 250px;
+padding-left: 400px;
+}
+
+.menu{
+text-align: right;
+padding-right: 400px;
+padding-top: 20px;
+word-spacing: 25px;
+opacity: 0.5;
+}
+
+a{
+color:#ced7e5 ;
+}
+
+
+
