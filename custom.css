@@ -137,3 +137,11 @@ body {
 	float: right;
 	display: inline-block;
 }
+
+.progress {
+margin-bottom: 30px;
+}
+
+.title2{
+margin-top: 0px;
+}
