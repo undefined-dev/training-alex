@@ -1,25 +1,24 @@
-button{
+button {
 
-height: 50px;
-padding-left: 40px;
-padding-top:5px;
-padding-right:40px;
-font-weight: bold
-;
-}
+	height: 50px;
+	padding-left: 40px;
+	padding-top:5px;
+	padding-right:40px;
+	font-weight: bold;
+ }
 
 .butonas:hover {
-  background: black;
-  border: 1px solid white;
+  	background: black;
+ 	border: 1px solid white;
 }
 
-body{
-font-family: Varela Round;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-padding-top: 250px;
-padding-left: 400px;
+.container	{
+	padding-top: 250px;
+	padding-left: 400px;
 }
 
 
@@ -80,3 +79,43 @@ padding-left: 400px;
 	margin-bottom: 30px;
 }
 
+
+.middle-text {
+	color: #4B4B4C;
+
+}
+ 
+#myProgress {
+    width: 100%;
+    background-color: #bac2d1;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: blue;
+}
+
+#myBar {
+    width: 55%;
+    height: 8px;
+    background-color: #f5f5f5;
+    text-align: right; 
+    line-height: 30px; 
+    color: white;
+}
+
+.bars {
+	padding-right: 50px;
+}
+
+.middle-title {
+	font-weight: bold ;
+}
+
+.middle-phrase {
+	font-size: 14px;
+}
+
+.middle-page {
+	padding-left: 70px;
+}
