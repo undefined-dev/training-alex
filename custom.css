@@ -14,6 +14,7 @@ button {
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 }
 
 .container	{
@@ -102,6 +103,8 @@ body {
 .middle-page {
 	padding: 80px 10%;
 	color: #9ea0a3;
+	overflow: auto;
+
 }
 
 
@@ -159,39 +162,43 @@ body {
 
 }
 
-.column2 {
-	width: 33.3% ;
-	float: right;
+.logos {
+	padding: 0 10%;
+	overflow: auto;
+	margin-bottom: 50px;
+
+
 }
-
-
-
-.img1 {
-	height: 150px;
-	width: 150px;
-}
-	
-
-.img2 {
-	height: 150px;
-	width: 150px;
-	
-}
-
-.img3 {
-	height: 150px;
-	width: 150px;
-	
-}
-
-.bottompage-quote {
+.logo {
+	width: 33.3%;
+	float: left;
 	text-align: center;
-	padding-top: 30%;
+	font-size: 15px;
+}
+.logo p {
 	color: #909090;
 }
 
-.photo {
-	box-sizing: border-box;
-	height: 10px;
-	width: 10px ;
+
+
+.bottompage-quote {
+	text-align: center;
+	padding: 10% 0;
+	color: #909090;
+	background: #F7F7F7;
 }
+
+.logo img {
+	height: 150px;
+	width: 150px;
+}
+.photo {
+	overflow: auto;
+}
+.photo img {
+	display: block;
+	max-height: 200px;
+	float: left;
+	width: 33.3%;
+}	
+
