@@ -52,7 +52,7 @@ body {
 }
 
 .hero {
-	color: white;
+	color: #d4d8db;
 	padding: 10% 0;
 }
 
@@ -82,17 +82,14 @@ body {
 
 .middle-text {
 	color: #4B4B4C;
+
 }
 
 .column { 
 	width: 50%; 
 	float: left;
- 
 }
 
-.bars {
-	padding-right: 50px;
-}
 
 .middle-title {
 	font-weight: bold ;
@@ -104,6 +101,7 @@ body {
 
 .middle-page {
 	padding: 80px 10%;
+	color: #9ea0a3;
 }
 
 
@@ -139,9 +137,61 @@ body {
 }
 
 .progress {
-margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
-.title2{
-margin-top: 0px;
+.title2 {
+	margin-top: 0px;
+	font-weight: bold;
+	color: #333;
+}
+
+.first-tile {
+	color: #d7dce0;
+}
+
+.bars {
+	padding-left: 20%;
+}
+
+.bottom-title {
+	color: #393e42;
+
+}
+
+.column2 {
+	width: 33.3% ;
+	float: right;
+}
+
+
+
+.img1 {
+	height: 150px;
+	width: 150px;
+}
+	
+
+.img2 {
+	height: 150px;
+	width: 150px;
+	
+}
+
+.img3 {
+	height: 150px;
+	width: 150px;
+	
+}
+
+.bottompage-quote {
+	text-align: center;
+	padding-top: 30%;
+	color: #909090;
+}
+
+.photo {
+	box-sizing: border-box;
+	height: 10px;
+	width: 10px ;
 }
