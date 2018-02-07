@@ -202,3 +202,62 @@ body {
 	width: 33.3%;
 }	
 
+.final-text h2 {
+	font-weight: bold;
+	color: #393e42;
+}
+
+.final-text p{ 
+color:#909090;
+}
+
+.final-text {
+	text-align: middle;
+}
+
+.final{
+	padding-left: 30%;
+	padding-top: 100px;
+}
+
+.developer img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: auto;
+}
+
+.developer {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+}
+
+.partners {
+	padding-top: 150px;
+}
+
+.developer p {
+	color:#909090;
+}
+
+.developer h4 {
+	font-weight: bold;
+}
+
+.sponsors img {
+	height: 55px;
+	width: 55px;
+	overflow: auto;
+
+}
+
+.sponsor img {
+	display: block;
+	max-height: 200px;
+	float: left;
+	width: 25%;
+	overflow: auto;
+	text-align: center;
+	padding-top: 200px;
